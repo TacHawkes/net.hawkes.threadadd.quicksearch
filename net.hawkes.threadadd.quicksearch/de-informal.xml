@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de-informal">
+	<category name="wbb.threadAdd">
+		<item name="wbb.threadAdd.similarThreads.quickSearch.1"><![CDATA[Eine Schnellsuche ergab eines oder mehrere ähnliche Themen. <a href="javascript:threadQuickSearch.showThreads();">Klicke sie hier</a> um diese anzuzeigen.]]></item>
+		<item name="wbb.threadAdd.similarThreads.quickSearch.2"><![CDATA[Eine Schnellsuche ergab eines oder mehrere ähnliche Themen. Prüfe bitte, ob diese Deinem Thema entsprechen, um Doppelposts zu vermeiden.]]></item>
+		<item name="wbb.threadAdd.quicksearch.type.1"><![CDATA[Volltextsuche]]></item>
+		<item name="wbb.threadAdd.quicksearch.type.2"><![CDATA[Themensuche]]></item>
+		<item name="wbb.threadAdd.quicksearch.type.3"><![CDATA[Titelsuche]]></item>
+		<item name="wbb.threadAdd.quicksearch.style.1"><![CDATA[Information]]></item>
+		<item name="wbb.threadAdd.quicksearch.style.2"><![CDATA[Warnung]]></item>
+		<item name="wbb.threadAdd.quicksearch.style.3"><![CDATA[Fehler]]></item>
+	</category>
+	<category name="wbb.thread.quickSearch">
+		<item name="wbb.thread.quickSearch.link"><![CDATA[Klicke hier um zum vollständigen Suchergebnis zu gelangen]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.board.thread.quicksearch"><![CDATA[Themenschnellsuche]]></item>
+		<item name="wcf.acp.option.category.board.thread.quicksearch.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_stopwords"><![CDATA[Stopwörter(eins pro Zeile)]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_stopwords.description"><![CDATA[Gib an, welche Wörter bei der Suche ignoriert werden sollen. Dies kann hilfreich sein, um das Suchergebnis zu verbessern.]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_showtime"><![CDATA[Zeit anzeigen]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_lastposttime"><![CDATA[Zeit des letzten Beitrags anzeigen]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_showreplies"><![CDATA[Anzahl Antworten anzeigen]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_showreplies.description"><![CDATA[Wähle, ob die Anzahl der Antworten auf das Thema angezeigt werden soll.]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_lastposttime.description"><![CDATA[Ist diese Option aktiviert wird anstatt der Erstellungszeit die Zeit des letzten Beitrags angezeigt.]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_showtime.description"><![CDATA[Wähle, ob die Erstellungszeit des Themas angezeigt werden soll.]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_style"><![CDATA[Anzeigeart]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_style.description"><![CDATA[Wähle  aus wie der Benutzer das Suchergebnis dargestellt bekommen soll.]]></item>
+		<item name="wcf.acp.option.thread_add_show_always"><![CDATA[Box immer ausklappen]]></item>
+		<item name="wcf.acp.option.thread_add_show_always.description"><![CDATA[Gib hier an, ob der Benutzer sofort die Suchergebnisse, oder nur einen Hinweis sehen soll.]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_showsearchlink"><![CDATA[Link zum Suchergebnis anzeigen]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_showsearchlink.description"><![CDATA[Aktiviere diese Option, wenn du willst, dass ein Link zum Suchergebnis der Themenschnellsuche eingeblendet wird.]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_local_search"><![CDATA[Lokale Suche]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_local_search.description"><![CDATA[Aktivieren diese Option, wenn du willst, dass die Suche nur im jeweiligen Forum ausgeführt wird.]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_max_threads"><![CDATA[Maximale Anzahl an Themen]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_max_threads.description"><![CDATA[Gib an, wieviele Themen maximal angezeigt werden sollen.]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_excluded_boards"><![CDATA[Ausgeschlossene Foren]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_excluded_boards.description"><![CDATA[Gib an, welche Foren bei der Schnellsuche nicht berücksichtigt werden sollen.]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_type"><![CDATA[Art der Schnellsuche]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_type.description"><![CDATA[Du kannst aus 3 Arten der Schnellsuche wählen:<br />
+																			<ol><li><strong>Volltextsuche:</strong> Bei dieser Suche werden alle Posts nach dem Thementitel durchsucht.</li>
+																				<li><strong>Themensuche:</strong> Hier wird nur der erste Post eines Threads nach dem Thementitel durchsucht.</li>
+																				<li><strong>Titelsuche: </strong> Diese Suche untersucht nur die Thementitel auf Ähnlichkeiten.</li>
+		</ol>]]></item>
+	</category>
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.message.canUseThreadQuickSearch"><![CDATA[Kann Themenschnellsuche benutzen]]></item>
+		<item name="wcf.acp.group.option.user.message.canUseThreadQuickSearch.description"><![CDATA[Diese Gruppe kann beim Themen starten die Themenschnellsuche benutzen. Für erfahrene Benutzergruppen kann dies ausgeschaltet werden.]]></item>
+	</category>
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.category.settings.general.quicksearch"><![CDATA[Themenschnellsuche]]></item>
+		<item name="wcf.user.option.showThreadQuickSearch"><![CDATA[Themenschnellsuche benutzen]]></item>
+		<item name="wcf.user.option.showThreadQuickSearch.description"><![CDATA[Aktiviere diese Option, wenn du willst, dass bei der Themenerstellung eine Schnellsuche mit deinem Titel ausgeführt wird, um ähnliche Themen zu finden.]]></item>
+	</category>
+</language>

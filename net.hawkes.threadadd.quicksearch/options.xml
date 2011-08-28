@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/options.xsd">
+	<import>
+		<categories>
+			<category name="board.thread.quicksearch">
+				<parent>board.thread</parent>
+				<showorder>2</showorder>
+			</category>
+		</categories>
+		<options>
+			<option name="thread_add_quicksearch_style">
+				<categoryname>board.thread.quicksearch</categoryname>
+				<optiontype>select</optiontype>
+				<defaultvalue>info</defaultvalue>
+				<selectoptions>info:wbb.threadAdd.quicksearch.style.1
+warning:wbb.threadAdd.quicksearch.style.2
+error:wbb.threadAdd.quicksearch.style.3</selectoptions>
+				<showorder>1</showorder>
+			</option>
+			<option name="thread_add_quicksearch_type">
+				<categoryname>board.thread.quicksearch</categoryname>
+				<optiontype>select</optiontype>
+				<defaultvalue>1</defaultvalue>
+				<selectoptions>1:wbb.threadAdd.quicksearch.type.1
+2:wbb.threadAdd.quicksearch.type.2
+3:wbb.threadAdd.quicksearch.type.3</selectoptions>
+				<showorder>2</showorder>
+			</option>
+			<option name="thread_add_quicksearch_showtime">
+				<categoryname>board.thread.quicksearch</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+				<showorder>3</showorder>
+				<enableoptions>thread_add_quicksearch_lastposttime</enableoptions>
+			</option>
+			<option name="thread_add_quicksearch_lastposttime">
+				<categoryname>board.thread.quicksearch</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>4</showorder>
+			</option>
+			<option name="thread_add_quicksearch_showreplies">
+				<categoryname>board.thread.quicksearch</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+				<showorder>5</showorder>
+			</option>
+			<option name="thread_add_show_always">
+				<categoryname>board.thread.quicksearch</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+				<showorder>6</showorder>
+			</option>
+			<option name="thread_add_quicksearch_showsearchlink">
+				<categoryname>board.thread.quicksearch</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+				<showorder>7</showorder>
+			</option>
+			<option name="thread_add_quicksearch_local_search">
+				<categoryname>board.thread.quicksearch</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>8</showorder>
+			</option>
+			<option name="thread_add_quicksearch_max_threads">
+				<categoryname>board.thread.quicksearch</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>5</defaultvalue>
+				<showorder>9</showorder>
+			</option>
+			<option name="thread_add_quicksearch_excluded_boards">
+				<categoryname>board.thread.quicksearch</categoryname>
+				<optiontype>boardselect</optiontype>
+				<showorder>10</showorder>
+			</option>
+			<option name="thread_add_quicksearch_stopwords">
+				<categoryname>board.thread.quicksearch</categoryname>
+				<optiontype>textarea</optiontype>
+				<showorder>11</showorder>
+			</option>
+		</options>
+	</import>
+</data>

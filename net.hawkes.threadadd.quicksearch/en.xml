@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="en">
+	<category name="wbb.threadAdd">
+		<item name="wbb.threadAdd.similarThreads.quickSearch.1"><![CDATA[A quick search shows that there are one or more similar threads to yours. <a href="javascript:threadQuickSearch.showThreads();">Click here</a> to show them.]]></item>
+		<item name="wbb.threadAdd.similarThreads.quickSearch.2"><![CDATA[A quick search shows that there are one or more similar threads to yours. Please check if they match with yours and avoid double posting.]]></item>
+		<item name="wbb.threadAdd.quicksearch.type.1"><![CDATA[Fulltext search]]></item>
+		<item name="wbb.threadAdd.quicksearch.type.2"><![CDATA[Thread search]]></item>
+		<item name="wbb.threadAdd.quicksearch.type.3"><![CDATA[Topic search]]></item>
+		<item name="wbb.threadAdd.quicksearch.style.1"><![CDATA[Information]]></item>
+		<item name="wbb.threadAdd.quicksearch.style.2"><![CDATA[Warning]]></item>
+		<item name="wbb.threadAdd.quicksearch.style.3"><![CDATA[Error]]></item>
+	</category>
+	<category name="wbb.thread.quickSearch">
+		<item name="wbb.thread.quickSearch.link"><![CDATA[Click here to view the complete search result]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.board.thread.quicksearch"><![CDATA[Thread Quick Search]]></item>
+		<item name="wcf.acp.option.category.board.thread.quicksearch.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_stopwords"><![CDATA[Stopwords(one per line)]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_stopwords.description"><![CDATA[Enter words which should be ignored when searching for threads. This can heavily improve the search results.]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_showtime"><![CDATA[Show time]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_lastposttime"><![CDATA[Show time of the last post]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_showreplies"><![CDATA[Show the number of replies]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_showreplies.description"><![CDATA[Choose, whether the number of replies should be shown.]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_lastposttime.description"><![CDATA[Choose whether the time of the last post should be shown instead of the thread time.]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_showtime.description"><![CDATA[Choose whether the thread start time should be shown.]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_style"><![CDATA[Style]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_style.description"><![CDATA[Choose how the search result should be displayed to the user.]]></item>
+		<item name="wcf.acp.option.thread_add_show_always"><![CDATA[Show Box always]]></item>
+		<item name="wcf.acp.option.thread_add_show_always.description"><![CDATA[Choose whether the search result or only an information box should be shown. The information box can be extended to show the search result.]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_showsearchlink"><![CDATA[Show search result link]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_showsearchlink.description"><![CDATA[Activate this option if you want the quick search to display a link to the complete search result.]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_local_search"><![CDATA[Local Search]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_local_search.description"><![CDATA[Activate this option if you want to limit the quick search to the current board.]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_max_threads"><![CDATA[Maxmimum Thread Count]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_max_threads.description"><![CDATA[Choose how many threads should be displayed to the user.]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_excluded_boards"><![CDATA[Excluded boards]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_excluded_boards.description"><![CDATA[Choos which boards should be ignored by the thread quick search.]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_type"><![CDATA[Quick search type]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_type.description"><![CDATA[You can choose from 3 quick search types:<br />
+																			<ol><li><strong>Fulltext search:</strong> This search matches against every post.</li>
+																				<li><strong>Thread search:</strong> This search matches against the first post of every thread.</li>
+																				<li><strong>Topic search: </strong> This search matches only against the thread title.</li>
+		</ol>]]></item>
+	</category>
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.message.canUseThreadQuickSearch"><![CDATA[Can use thread quick search]]></item>
+		<item name="wcf.acp.group.option.user.message.canUseThreadQuickSearch.description"><![CDATA[This group can use the thread quick search while startting threads. This can be disabled for experienced user groups.]]></item>
+	</category>
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.category.settings.general.quicksearch"><![CDATA[Thread Quick Search]]></item>
+		<item name="wcf.user.option.showThreadQuickSearch"><![CDATA[Use thread quick search]]></item>
+		<item name="wcf.user.option.showThreadQuickSearch.description"><![CDATA[Activate thits option if you want the board software to perform a quick search on your thread title on creating new threads.]]></item>
+	</category>
+</language>

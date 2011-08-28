@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="fr">
+	<category name="wbb.threadAdd">
+		<item name="wbb.threadAdd.similarThreads.quickSearch.1"><![CDATA[Une recherche rapide montre qu’il existe une ou plusieurs discussions similaires à la votre. <a href="javascript:threadQuickSearch.showThreads();">Cliquez ici</a> pour les afficher.]]></item>
+		<item name="wbb.threadAdd.similarThreads.quickSearch.2"><![CDATA[Une recherche rapide montre qu’il existe une ou plusieurs discussions similaires à la votre. Veuillez les vérifier afin d’éviter un doublon.]]></item>
+		<item name="wbb.threadAdd.quicksearch.type.1"><![CDATA[Recherche de texte complet]]></item>
+		<item name="wbb.threadAdd.quicksearch.type.2"><![CDATA[Recherche de discussion]]></item>
+		<item name="wbb.threadAdd.quicksearch.type.3"><![CDATA[Recherche de sujet]]></item>
+		<item name="wbb.threadAdd.quicksearch.style.1"><![CDATA[Information]]></item>
+		<item name="wbb.threadAdd.quicksearch.style.2"><![CDATA[Avertissement]]></item>
+		<item name="wbb.threadAdd.quicksearch.style.3"><![CDATA[Erreur]]></item>
+	</category>
+	<category name="wbb.thread.quickSearch">
+		<item name="wbb.thread.quickSearch.link"><![CDATA[Cliquez ici pour voir le résultat complet de la recherche]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.board.thread.quicksearch"><![CDATA[Recherche rapide de discussions (Thread Quick Search)]]></item>
+		<item name="wcf.acp.option.category.board.thread.quicksearch.description" />
+		<item name="wcf.acp.option.thread_add_quicksearch_stopwords"><![CDATA[Mots bloqués (un par ligne)]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_stopwords.description"><![CDATA[Entrez les mots que vous voulez ignorer lors de la recherche des discussions. Cela peut améliorer considérablement le résultat des recherches.]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_showtime"><![CDATA[Afficher la date]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_lastposttime"><![CDATA[Affiche la date du dernier message]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_showreplies"><![CDATA[Afficher le nombre de réponses]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_showreplies.description"><![CDATA[Affiche le nombre des réponses des discussions trouvées.]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_lastposttime.description"><![CDATA[Affiche la date du dernier message des discussions trouvées.]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_showtime.description"><![CDATA[Afficher la date de création des discussions trouvées.]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_style"><![CDATA[Style]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_style.description"><![CDATA[Indiquez le style d’affichage de la fenêtre d’affichage des résultats de recherche.]]></item>
+		<item name="wcf.acp.option.thread_add_show_always"><![CDATA[Toujours afficher les résultats de la recherche]]></item>
+		<item name="wcf.acp.option.thread_add_show_always.description"><![CDATA[Si désactivée : une fenêtre informative indique s’il existe des sujets similaires. Il est alors possible de cliquer sur un lien pour afficher le détail de la recherche. <br /> Si activée : le détail de la recherche est affiché par défaut.]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_showsearchlink"><![CDATA[Afficher le lien des résultats de la recherche]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_showsearchlink.description"><![CDATA[Activez cette option si vous voulez que la recherche rapide affiche un lien pointant vers le résultat complet de la recherche.]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_max_threads"><![CDATA[Nombre maximum de discussion]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_max_threads.description"><![CDATA[Choisissez le nombre de discussions maximum affiché à l’utilisateur.]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_excluded_boards"><![CDATA[Forums non pris en compte]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_excluded_boards.description"><![CDATA[Choisissez les forums qui ne doivent pas être pris en compte lors de la recherche rapide.]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_type"><![CDATA[Type de recherche rapide]]></item>
+		<item name="wcf.acp.option.thread_add_quicksearch_type.description"><![CDATA[Vous pouvez choisir entre 3 types de recherche rapide : <br />
+																				<ol><li><strong>Recherche du texte complet :</strong> Cette recherche vérifie tous les messages des discussions.</li>
+																					<li><strong>Recherche de discussions :</strong> Cette recherche vérifie le premier message des discussions.</li>
+																					<li><strong>Recherche de sujets : </strong> Cette recherche vérifie seulement le titre des discussions.</li>
+		</ol>]]></item>
+	</category>
+	<category name="wcf.acp.group.option">
+		<item name="wcf.acp.group.option.user.message.canUseThreadQuickSearch"><![CDATA[Peut utiliser la recherche rapide]]></item>
+		<item name="wcf.acp.group.option.user.message.canUseThreadQuickSearch.description"><![CDATA[Les membres de ce groupe peuvent utiliser la recherche rapide de discussions lors du commencement d’une discussion. Cette option peut être désactivée pour les groupes d’utilisateurs expérimentés.]]></item>
+	</category>
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.category.settings.general.quicksearch"><![CDATA[Recherche rapide de discussions (Thread Quick Search)]]></item>
+		<item name="wcf.user.option.showThreadQuickSearch"><![CDATA[Utiliser la recherche rapide de discussions]]></item>
+		<item name="wcf.user.option.showThreadQuickSearch.description"><![CDATA[Activez cette option si vous voulez que le forum effectue une recherche rapide à partir du titre d’une nouvelle discussion, pour proposer des discussions déjà existante pouvant être similaires.]]></item>
+	</category>
+</language>
